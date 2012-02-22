@@ -42,13 +42,13 @@ html, body {
 
 div#tardis {
   background: url("../images/tardis.png") no-repeat center center;
-  height: 360px;
+  height: 400px;
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 40%;
-  width: 245px; }
+  width: 460px; }
 
 div.explanation {
   background: rgba(0, 0, 0, 0.5);
