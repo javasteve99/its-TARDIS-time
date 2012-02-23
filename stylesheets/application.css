@@ -47,11 +47,12 @@ div#tardis {
   padding: 0;
   position: absolute;
   right: 10%;
-  top: 40%;
+  bottom: 10%;
   width: 460px; }
 
 div.explanation {
-  background: rgba(0, 0, 0, 0.5);
+  background: #000;
+  background: rgba(0, 0, 0, 0.85);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -60,7 +61,7 @@ div.explanation {
   bottom: 10px;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   left: 10px;
   line-height: 1.4em;
   position: absolute;
@@ -77,11 +78,8 @@ div.explanation {
   0% {
     opacity: 0.0; }
 
-  5% {
-    opacity: 0.1; }
-
   10% {
-    opacity: 0.05; }
+    opacity: 0.0; }
 
   15% {
     opacity: 0.2; }
@@ -102,34 +100,16 @@ div.explanation {
     opacity: 0.35; }
 
   45% {
-    opacity: 0.5; }
+    opacity: 0.55; }
 
   50% {
     opacity: 0.45; }
 
-  55% {
-    opacity: 0.6; }
-
-  60% {
-    opacity: 0.55; }
-
-  65% {
+  58% {
     opacity: 0.7; }
 
   70% {
     opacity: 0.65; }
-
-  75% {
-    opacity: 0.8; }
-
-  80% {
-    opacity: 0.75; }
-
-  85% {
-    opacity: 0.9; }
-
-  90% {
-    opacity: 1; }
 
   100% {
     opacity: 1; } }
@@ -138,11 +118,8 @@ div.explanation {
   0% {
     opacity: 0.0; }
 
-  5% {
-    opacity: 0.1; }
-
   10% {
-    opacity: 0.05; }
+    opacity: 0.0; }
 
   15% {
     opacity: 0.2; }
@@ -163,34 +140,16 @@ div.explanation {
     opacity: 0.35; }
 
   45% {
-    opacity: 0.5; }
+    opacity: 0.55; }
 
   50% {
     opacity: 0.45; }
 
-  55% {
-    opacity: 0.6; }
-
-  60% {
-    opacity: 0.55; }
-
-  65% {
+  58% {
     opacity: 0.7; }
 
   70% {
     opacity: 0.65; }
-
-  75% {
-    opacity: 0.8; }
-
-  80% {
-    opacity: 0.75; }
-
-  85% {
-    opacity: 0.9; }
-
-  90% {
-    opacity: 1; }
 
   100% {
     opacity: 1; } }
@@ -199,11 +158,8 @@ div.explanation {
   0% {
     opacity: 0.0; }
 
-  5% {
-    opacity: 0.1; }
-
   10% {
-    opacity: 0.05; }
+    opacity: 0.0; }
 
   15% {
     opacity: 0.2; }
@@ -224,34 +180,16 @@ div.explanation {
     opacity: 0.35; }
 
   45% {
-    opacity: 0.5; }
+    opacity: 0.55; }
 
   50% {
     opacity: 0.45; }
 
-  55% {
-    opacity: 0.6; }
-
-  60% {
-    opacity: 0.55; }
-
-  65% {
+  58% {
     opacity: 0.7; }
 
   70% {
     opacity: 0.65; }
-
-  75% {
-    opacity: 0.8; }
-
-  80% {
-    opacity: 0.75; }
-
-  85% {
-    opacity: 0.9; }
-
-  90% {
-    opacity: 1; }
 
   100% {
     opacity: 1; } }

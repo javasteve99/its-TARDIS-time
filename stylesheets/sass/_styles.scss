@@ -11,17 +11,18 @@ div#tardis {
   padding: 0;
   position: absolute;
   right: 10%;
-  top: 40%;
+  bottom: 10%;
   width: 460px;
 }
 
 div.explanation {
-  background: rgba(#000, 0.5);
+  background: #000;
+  background: rgba(#000, 0.85);
   @include border-radius(3px);
   bottom: 10px;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   left: 10px;
   line-height: 1.4em;
   position: absolute;
@@ -42,68 +43,47 @@ div.explanation {
 // Animation ============================================================= //
 @-webkit-keyframes tardis-fade-in {
   0%   { opacity: 0.0; }
-  5%   { opacity: 0.1; }
-  10%   { opacity: 0.05; }
+  10%   { opacity: 0.0; }
   15%   { opacity: 0.2; }
   20%   { opacity: 0.15; }
   25%   { opacity: 0.3; }
   30%   { opacity: 0.25; }
   35%   { opacity: 0.4; }
   40%   { opacity: 0.35; }
-  45%   { opacity: 0.5; }
+  45%   { opacity: 0.55; }
   50%   { opacity: 0.45; }
-  55%   { opacity: 0.6; }
-  60%   { opacity: 0.55; }
-  65%   { opacity: 0.7; }
+  58%   { opacity: 0.7; }
   70%   { opacity: 0.65; }
-  75%   { opacity: 0.8; }
-  80%   { opacity: 0.75; }
-  85%   { opacity: 0.9; }
-  90%   { opacity: 1; }
   100% { opacity: 1; }
 }
 @-moz-keyframes tardis-fade-in {
   0%   { opacity: 0.0; }
-  5%   { opacity: 0.1; }
-  10%   { opacity: 0.05; }
+  10%   { opacity: 0.0; }
   15%   { opacity: 0.2; }
   20%   { opacity: 0.15; }
   25%   { opacity: 0.3; }
   30%   { opacity: 0.25; }
   35%   { opacity: 0.4; }
   40%   { opacity: 0.35; }
-  45%   { opacity: 0.5; }
+  45%   { opacity: 0.55; }
   50%   { opacity: 0.45; }
-  55%   { opacity: 0.6; }
-  60%   { opacity: 0.55; }
-  65%   { opacity: 0.7; }
+  58%   { opacity: 0.7; }
   70%   { opacity: 0.65; }
-  75%   { opacity: 0.8; }
-  80%   { opacity: 0.75; }
-  85%   { opacity: 0.9; }
-  90%   { opacity: 1; }
   100% { opacity: 1; }
 }
 @-ms-keyframes tardis-fade-in {
   0%   { opacity: 0.0; }
-  5%   { opacity: 0.1; }
-  10%   { opacity: 0.05; }
+  10%   { opacity: 0.0; }
   15%   { opacity: 0.2; }
   20%   { opacity: 0.15; }
   25%   { opacity: 0.3; }
   30%   { opacity: 0.25; }
   35%   { opacity: 0.4; }
   40%   { opacity: 0.35; }
-  45%   { opacity: 0.5; }
+  45%   { opacity: 0.55; }
   50%   { opacity: 0.45; }
-  55%   { opacity: 0.6; }
-  60%   { opacity: 0.55; }
-  65%   { opacity: 0.7; }
+  58%   { opacity: 0.7; }
   70%   { opacity: 0.65; }
-  75%   { opacity: 0.8; }
-  80%   { opacity: 0.75; }
-  85%   { opacity: 0.9; }
-  90%   { opacity: 1; }
   100% { opacity: 1; }
 }
 
