@@ -89,4 +89,6 @@ div.explanation {
 
 div#tardis {
   -webkit-animation: tardis-fade-in 16s 1;
+  -moz-animation: tardis-fade-in 16s 1;
+  -ms-animation: tardis-fade-in 16s 1;
 }
